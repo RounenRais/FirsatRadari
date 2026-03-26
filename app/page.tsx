@@ -44,7 +44,6 @@ export default async function Home() {
           {error}
         </div>
       )}
-
       {campaigns.length === 0 && !error ? (
         <div className="flex flex-col items-center justify-center rounded-xl border-2 border-dashed border-slate-300 py-16 dark:border-slate-700">
           <svg
