@@ -24,7 +24,7 @@ export default async function Home() {
         campaigns = data ?? [];
       }
     } catch {
-      error = "Veritabanına bağlanılamadı. Lütfen .env dosyasını kontrol edin.";
+      error = "Veritabanına bağlanılamadi Lütfen .env dosyasını kontrol edin.";
     }
   }
 
